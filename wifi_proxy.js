@@ -17,7 +17,7 @@ TG频道:@meetashare
 var wifiname = $network.wifi.ssid;
 var proxywifi = "hzwater";
 if (wifiname == proxywifi){
-	$surge.setOutboundMode("global");
+	$surge.setOutboundMode("global-proxy");
 	//$notification.post("Meeta_Remind","您目前处于WIFI-hzwater","Surge已自动变为全局模式");
 	
 }
