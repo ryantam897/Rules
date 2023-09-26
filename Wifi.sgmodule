@@ -1,0 +1,5 @@
+#!name=识别Wifi分流
+#!desc=用于自动识别WiFi环境，公司WiFi全局，其余规则模式
+
+[Script]
+event network-changed script-path=https://raw.githubusercontent.com/tAynR1/Rules/main/wifi_proxy.js

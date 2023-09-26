@@ -1,5 +1,0 @@
-#!name=识别Wifi分流
-#!desc=@逗bi极客 用于自动识别家中已经部署代理的情况，回到家自动切换直连，出门自动切换为规则模式
-
-[Script]
-event network-changed script-path=https://client.yesageek.com/surge/script/wifi-proxy.js
